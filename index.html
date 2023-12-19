@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Красоты Сахалина</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+	<link type="image/x-icon" href="img/logo.ico" rel="shortcut icon">
+	<script type="text/javascript" src="app.js" defer=""></script>
+</head>
+<body>
+	<header id="menu">
+	<img src="img/logo.jpg" width="75" height="75" alt=""/>
+	<h1>Красоты Сахалина</h1>
+	<ul>
+	<li><a>Главная</a></li>
+    <li><a href="#section1">О нас</a></li>
+    <li><a>Красивые места</a></li>
+	<li><a>Записаться</a></li>
+	</ul>
+	</header>
+	
+	<br>
+	
+	<div class="all">
+		<input checked type="radio" name="respond" id="desktop">
+			<article id="slider">
+					<input checked type="radio" name="slider" id="switch1">
+					<input type="radio" name="slider" id="switch2">
+					<input type="radio" name="slider" id="switch3">
+					<input type="radio" name="slider" id="switch4">
+				<div id="slides">
+					<div id="overflow">
+						<div class="image">
+							<article><img src="img/wild1.jpg" onclick="openFullscreenImage(this)"></article>
+							<article><img src="img/wild2.jpg" onclick="openFullscreenImage(this)"></article>
+							<article><img src="img/wild3.jpg" onclick="openFullscreenImage(this)"></article>
+							<article><img src="img/town.jpg" onclick="openFullscreenImage(this)"></article>
+						</div>
+					</div>
+				</div>
+				<div id="controls">
+					<label for="switch1"></label>
+					<label for="switch2"></label>
+					<label for="switch3"></label>
+					<label for="switch4"></label>
+				</div>
+			</article>
+	</div>
+	    <div id="fullscreen-container" class="hidden">
+      <span class="close-button" onclick="closeFullscreenImage()">&times;</span>
+      <img src="" alt="Полноэкранное изображение" id="fullscreen-image">
+    </div>
+	<section id="section1">
+	<div class="info">
+		<h1>Немного о нас</h1>
+		<h2>Мы хотим рассказать и показать вам некоторые красоты острова Сахалин. К каждой<br> локации мы добавим информацию о нем и приложим пару фотографий.</h2>
+	</div>
+	<br><br>
+	</section>
+	<section id="places">
+      
+      <div class="column-container">
+
+        <div class="column">
+            <h2>Гора Лягушка</h2>
+            <img src="img/frog.jpg" class="pic" onclick="openFullscreenImage(this)" width="550">
+            <p>Всего в 20 км от Южно-Сахалинска недалеко от поселка Весточка можно посетить гору Лягушка. Свое название достопримечательность получила из-за расположенного на ее вершине останца, который по своей форме очень напоминает лягушку. Путь к останцу — самый легкий горный маршрут на Сахалине. Его под силу осилить даже маленьким детям. Подъем к Лягушке займет около 2 часов. С вершины виден залив Анива, озера Тунайча и Изменчивое.</p>
+        </div>
+
+        <div class="column">
+            <h2>Лежбище сивучей</h2>
+            <img src="img/сивучи4.jpg" class="pic" onclick="openFullscreenImage(this)" width="450">
+            <p>Лежбище сивучей - одно из самых удивительных мест на острове Сахалин. Такая остановка будет интересна для любого туриста. Настоящие почитатели животных не пропустят возможность увидеть этих крупных млекопитающих в их естественной среде обитания. </p>
+        </div>
+
+        <div class="column">
+            <h2>Маяк Анива</h2>
+            <img src="img/Маяк.jpg" class="pic" onclick="openFullscreenImage(this)" width="450">
+            <p>В течение 40 лет после Русско-японской войны Сахалин принадлежал Японии. Но следов от азиатского наследия на острове почти не осталась — позаботилась Советская власть. Главное из сохранившихся сооружений — семиэтажный маяк Анива, установленный японцами на одноименном мысе в 1939 году. Постоянного смотрителя у маяка нет с 1990 года. До 2006 года сооружение работало автономно, а сейчас заброшено и постепенно разрушается. Минобороны обещает отреставрировать объект, но точных сроков не называет. Добраться до маяка можно только по морю и только при благоприятных погодных условиях.</p>
+        </div>
+		
+      </div>
+		 <div class="column-container">
+
+        <div class="column">
+            <h2>Вавайские озера</h2>
+            <img src="img/vaivai.jpg" class="pic" onclick="openFullscreenImage(this)" width="450">
+            <p>Самый большой пресный водоем Сахалина — Большое Вавайское озеро, расположенное на юге острова. Его площадь — более 44 км². Максимальная глубина равна 8,4 м. Название озера происходит от японского слова «Вааи», означающего гармонию и любовь. По происхождению водоем представляет собой бывшую морскую лагуну, которая отделилась от моря много тысяч лет назад. Тем же путем образовалось и соседнее Малое Вавайское озеро.
+              </p>
+        </div>
+
+        <div class="column">
+            <h2>Мыс Слепиковского</h2>
+            <img src="img/lepik.jpg" class="pic" onclick="openFullscreenImage(this)" width="450">
+            <p>Еще один популярный среди путешественников мыс находится на юго-западном побережье Сахалина в 30 км от Холмска. С 1905 года он назывался Ноторо, в 1934 году был переименован в Оторо Мисаки. А свое нынешнее название получил в 1945 году в честь Бронислава Владиславовича Гротто-Слепиковского, командовавшего русским партизанским отрядом в годы Русско-японской войны. </p>
+        </div>
+
+        <div class="column">
+            <h2>Янтарное поборежье</h2>
+            <img src="img/янтарь.jpg" class="pic" onclick="openFullscreenImage(this)" width="500">
+            <p>Янтарное побережье на Сахалине - это место, которое непременно стоит посетить всем, кто хочет ощутить красоту и мощь природы. Расположенное на восточном побережье области, оно поражает своей уникальностью и красотой. Расположено побережье в Сахалинском поселке Стародубское в Долинском районе. Здесь находится один из самых известных пляжей. В этом районе можно насладиться прекрасным видом на море.</p>
+        </div>
+
+    </div>
+
+    <div id="fullscreen-container" class="hidden">
+      <span class="close-button" onclick="closeFullscreenImage()">&times;</span>
+      <img src="" alt="Полноэкранное изображение" id="fullscreen-image">
+    </div>
+
+    <div id="fullscreen-container" class="hidden">
+      <span class="close-button" onclick="closeFullscreenImage()">&times;</span>
+      <img src="" alt="Полноэкранное изображение" id="fullscreen-image">
+    </div>
+
+    </section>
+	<div id="ww_076de926064fc" v='1.3' loc='id' a='{"t":"responsive","lang":"ru","ids":["wl4278"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>Больше прогнозов: <a href="https://meteolabs.org/погода_москва/завтра/" id="ww_076de926064fc_u" target="_blank">Погода Москва завтра</a></div><script async src="https://app2.weatherwidget.org/js/?id=ww_076de926064fc"></script>
+	<section id="end">
+
+    <form class="obratnuj-zvonok" autocomplete="off" /*action='email.php'*/ method='post'>
+        <div class="form-zvonok"> 
+          
+          <div>
+            <label>Имя <span>*</span></label>
+            <input type='text' name='name' required></div>
+          <div>
+            <label>Номер телефона (с кодом) <span>*</span></label>
+            <input type='text' name='phone' required></div>
+          <div>
+            <label>Сообщение</label>
+            <input type='text' name='message'>
+          </div>
+
+          <div>
+            <label>Введите текст с картинки<span>*</span></label>
+            <input type='text' name='capcha' required>
+          </div>
+          <img src="img/capha.jpg" class="pic">
+          <input class="bot-send-mail" type='submit' value='Послать заявку'>
+        </div>
+    </form>
+
+    </section>
+</body>
+<footer style="width: 100%;">
+
+  <div class="social-icons">
+    <a href="https://web.telegram.org/" class="social-icon"><img src="img/tg.webp" alt="Tg"></a>
+    <a href="https://m.vk.com/" class="social-icon"><img src="img/vk.png" alt="Vk"></a>
+    <a href="https://www.instagram.com/" class="social-icon"><img src="img/ig.png" alt="Ig"></a>
+  </div>
+  
+</footer>
+</html>
