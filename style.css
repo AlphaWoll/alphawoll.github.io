@@ -99,7 +99,7 @@ margin-left: 0%;
 #slides .image{ /*устанавливает общий размер блока с изображениями*/
 	width: 500%;
 	line-height: 0;
-	animation: 12s gablok_sedakoda-ani infinite;
+	animation: 10s gablok_sedakoda-ani infinite;
 	  
 }
 
